@@ -1,0 +1,1 @@
+The The python script for a scraping websites for a healthy diet. This script helps to find an amount of calories, proteins, fats, carbonhydrates by product name

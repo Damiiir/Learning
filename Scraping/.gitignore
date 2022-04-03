@@ -1,0 +1,9 @@
+# Default ignored files
+/shelf/
+workspace.xml
+csv-plugin.xml
+misc.xml
+modules.xml
+Scraping.xml
+profiles_settings.xml
+Scraping.iml
