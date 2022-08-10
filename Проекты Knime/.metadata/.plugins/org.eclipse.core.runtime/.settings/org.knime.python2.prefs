@@ -1,0 +1,10 @@
+defaultPythonOption=python3
+eclipse.preferences.version=1
+idlingProcessesExpirationDuration=5
+maxNumberOfIdlingProcesses=3
+python2CondaEnvironmentDirectoryPath=C\:\\Anaconda
+python2Path=python
+python3CondaEnvironmentDirectoryPath=C\:\\Anaconda
+python3Path=python3
+pythonEnvironmentType=conda
+serializerId=org.knime.serialization.flatbuffers.column

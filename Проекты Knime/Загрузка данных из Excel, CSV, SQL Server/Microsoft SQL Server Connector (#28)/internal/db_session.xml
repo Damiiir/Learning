@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="db_session">
+    <config key="Session Info">
+        <entry key="version" type="xint" value="3"/>
+        <entry key="sessionID" type="xstring" value="2ec407aa-3519-4126-8af8-348e80a83784"/>
+        <entry key="dbTypeId" type="xstring" value="mssqlserver"/>
+        <entry key="dialectId" type="xstring" value="mssqlserver"/>
+        <entry key="dbURL" type="xstring" value="jdbc:sqlserver://sqlforeveryone.database.windows.net:1433;databaseName=northwind"/>
+        <entry key="authenticationType" type="xstring" value="USER_PWD"/>
+        <entry key="dbUser" type="xstring" value="student"/>
+        <entry key="dbPassword" type="xpassword" value="02CQAAAGMq_QxveL1vZ0EBj0_K1QxPENy2YRAYPQY="/>
+        <entry key="host" type="xstring" value="sqlforeveryone.database.windows.net"/>
+    </config>
+    <config key="Driver Definition">
+        <entry key="driverId" type="xstring" value="built-in-mssqlserver-9.4.0"/>
+        <entry key="driverName" type="xstring" value="Official Driver for Microsoft SQL Server v. 9.4.0"/>
+        <entry key="driverVersion" type="xstring" value="9.4.0"/>
+        <entry key="driverClass" type="xstring" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        <entry key="driverDescription" type="xstring" value=""/>
+        <entry key="driverOrigin" type="xstring" value="EXTENSION"/>
+    </config>
+    <config key="Attributes"/>
+</config>

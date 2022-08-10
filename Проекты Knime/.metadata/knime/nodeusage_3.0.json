@@ -1,0 +1,201 @@
+
+{
+    "version": "4.6.1.v202207182243",
+    "created": "2022-08-09 16:40",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeFactory#Excel Reader",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 336,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 26,
+                "nrcreated": 3,
+                "successor": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory#Pivoting"
+            },
+            {
+                "id": "org.knime.reporting.nodes.dataset.ReportingDataSetNodeFactory#Data to Report",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 2,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory#CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 9,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.pmml.stringtonumber3.StringToNumber3NodeFactory#String To Number (PMML)"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 23,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename"
+            },
+            {
+                "id": "org.knime.base.node.preproc.rename.RenameNodeFactory#Column Rename",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory#Concatenate"
+            },
+            {
+                "id": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory#Concatenate",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 3,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 77,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 57,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.joiner3.Joiner3NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory#String to Date&Time",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 67,
+                "nrcreated": 1,
+                "successor": "org.knime.time.node.extract.datetime.ExtractDateTimeFieldsNodeFactory2#Extract Date&Time Fields"
+            },
+            {
+                "id": "org.knime.time.node.extract.datetime.ExtractDateTimeFieldsNodeFactory2#Extract Date&Time Fields",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 44,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.jep.JEPNodeFactory#Math Formula"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.stringtonumber3.StringToNumber3NodeFactory#String To Number (PMML)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 73,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.ext.jep.JEPNodeFactory#Math Formula",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 14,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation"
+            },
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 53,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory#Pivoting"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory#Pivoting",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 61,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory#Column Resorter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.columnresorter.ColumnResorterNodeFactory#Column Resorter",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 4,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory#Excel Writer"
+            },
+            {
+                "id": "org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory#Excel Writer",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 926,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 53,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.database.extension.mssql.node.connector.MSSQLDBConnectorNodeFactory#Microsoft SQL Server Connector",
+                "nrexecs": 2,
+                "nrfails": 1,
+                "exectime": 4113,
+                "nrcreated": 1,
+                "successor": "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory#DB Query Reader"
+            },
+            {
+                "id": "org.knime.database.node.io.reader.query.DBQueryReaderNodeFactory#DB Query Reader",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 1386,
+                "nrcreated": 2,
+                "successor": "org.knime.python2.nodes.script2.Python2ScriptNodeFactory2#Python Script"
+            },
+            {
+                "id": "org.knime.python2.nodes.script2.Python2ScriptNodeFactory2#Python Script",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 2024,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 422980,
+    "workflowsOpened": 4,
+    "remoteWorkflowsOpened": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "launches": 4,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 1691920,
+    "crashes": 0,
+    "properlyShutDown": true
+}
